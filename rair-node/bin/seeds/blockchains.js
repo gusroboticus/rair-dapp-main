@@ -7,4 +7,5 @@ module.exports = [
   { name: 'Ethereum Mainnet', hash: '0x1' },
   { name: 'Astar Mainnet', hash: '0x250' },
   { name: 'Base Mainnet', hash: '0x2105' },
+  { name: 'Geode Mainnet', hash: '0x2a'},
 ];

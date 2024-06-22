@@ -98,7 +98,8 @@ export type TBlockchainNames =
   // | 'Binance Testnet'
   // | 'Binance Mainnet'
   | 'Ethereum Mainnet'
-  | 'Astar Mainnet';
+  | 'Astar Mainnet'
+  | 'Geode Mainnet';
 
 export type TBlockchainCategory = {
   name: TBlockchainNames;

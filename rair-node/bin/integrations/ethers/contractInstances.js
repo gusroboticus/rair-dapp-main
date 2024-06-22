@@ -12,6 +12,7 @@ const binanceMainnet = new Network('Binance Mainnet', 0x38);
 const ethereumMainnet = new Network('Ethereum Mainnet', 0x1);
 const ethereumSepolia = new Network('Ethereum Sepolia', 0xaa36a7);
 const baseMainnet = new Network('Base Sepolia', 0x2105);
+const geodeMainnet = new Network('Geode Mainnet', 0x2A);
 
 const endpoints = {
     '0x13881': process.env.MATIC_TESTNET_RPC,
@@ -30,6 +31,7 @@ const endpoints = {
     sepolia: process.env.ETHEREUM_TESTNET_SEPOLIA_RPC,
     base: process.env.BASE_MAINNET_RPC,
     '0x2105': process.env.BASE_MAINNET_RPC,
+    '0x2A': process.env.GEODE_MAINNET_RPC,
 };
 
 const ethersV6Networks = {

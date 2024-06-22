@@ -66,6 +66,12 @@ const astarMainnetData = {
   testnet: true,
   rpc: process.env.ASTAR_MAINNET_RPC,
 };
+const geodeMainnetData = {
+  name: 'Geode Mainnet',
+  blockchainId: '0x2a',
+  testnet: true,
+  rpc: process.env.GEODE_MAINNET_RPC,
+};
 const baseMainnetData = {
   name: 'Base Mainnet',
   blockchainId: '0x2105',
@@ -92,6 +98,9 @@ module.exports = {
     networks: {
       '0x250': astarMainnetData,
       astar: astarMainnetData,
+
+      '0x2a': geodeMainnetData,
+      geode: geodeMainnetData,
 
       '0x13881': polygonTestnetData,
       mumbai: polygonTestnetData,

@@ -68,7 +68,7 @@ const VideoList: React.FC<IVideoList> = ({
                 );
               })
           ) : (
-            <h3 className="w-100 text-center">No videos found</h3>
+            <h3 className="w-100 text-center">Sorry, No videos found</h3>
           )
         ) : (
           'Searching...'

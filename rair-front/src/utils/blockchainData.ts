@@ -51,8 +51,8 @@ const chainData: TChainData = {
   // },
   '0x250': {
     testnet: false,
-    image: AstarLogo,
-    name: 'Astar Mainnet',
+    image: GeodeLogo,
+    name: 'Geode Mainnet',
     chainId: '0x250',
     symbol: 'ASTR',
     addChainData: {
@@ -70,27 +70,27 @@ const chainData: TChainData = {
     alchemy: Network.ASTAR_MAINNET,
     coingecko: 'astar'
   },
-  '0x2A': {
-    testnet: false,
-    image: GeodeLogo,
-    name: 'Geode Mainnet',
-    chainId: '0x2A',
-    symbol: 'GEODE',
-    addChainData: {
-      chainId: '0x2A',
-      chainName: 'Geode Mainnet',
-      nativeCurrency: {
-        name: 'GEODE',
-        symbol: 'GEODE',
-        decimals: 18
-      },
-      rpcUrls: ['https://geodeapps.com/?rpc=wss://geodeapps.com/citrine2%23/geode#/explorer'],
-      blockExplorerUrls: ['https://geodeapps.com/?rpc=wss://geodeapps.com/citrine2%23/geode#/explorer']
-    },
-    viem: undefined,
-    alchemy: Network.GEODE_MAINNET,
-    coingecko: 'geode'
-  },
+  // '0x2A': {
+  //   testnet: false,
+  //   image: GeodeLogo,
+  //   name: 'Geode Mainnet',
+  //   chainId: '0x2A',
+  //   symbol: 'GEODE',
+  //   addChainData: {
+  //     chainId: '0x2A',
+  //     chainName: 'Geode Mainnet',
+  //     nativeCurrency: {
+  //       name: 'GEODE',
+  //       symbol: 'GEODE',
+  //       decimals: 18
+  //     },
+  //     rpcUrls: ['https://geodeapps.com/?rpc=wss://geodeapps.com/citrine2%23/geode#/explorer'],
+  //     blockExplorerUrls: ['https://geodeapps.com/?rpc=wss://geodeapps.com/citrine2%23/geode#/explorer']
+  //   },
+  //   viem: undefined,
+  //   alchemy: Network.GEODE_MAINNET,
+  //   coingecko: 'geode'
+  // },
   '0x89': {
     image: MaticLogo,
     name: 'Matic(Polygon) Mainnet',

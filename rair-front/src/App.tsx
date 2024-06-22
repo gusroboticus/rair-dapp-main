@@ -101,7 +101,6 @@ import './App.css';
 // analytics.page();
 
 const SentryRoutes = withSentryReactRouterV6Routing(Routes);
-
 function App() {
   const dispatch = useDispatch();
   const { getServerSettings, settings } = useServerSettings();
